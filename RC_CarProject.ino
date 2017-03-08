@@ -42,6 +42,16 @@ void loop() {
     digitalWrite(12, HIGH);
     digitalWrite(11, 100);
   }
+  else if(state == '3'){
+    digitalWrite(8, HIGH);
+    digitalWrite(7, LOW);
+    digitalWrite(9, 150);
+  }
+   else if(state == '4'){
+    digitalWrite(8, LOW);
+    digitalWrite(7, HIGH);
+    digitalWrite(9, 150);
+  }
 
   
 //  //motor
